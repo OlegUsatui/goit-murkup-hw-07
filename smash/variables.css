@@ -1,0 +1,15 @@
+
+:root {
+    --white-text: rgba(255, 255, 255, 1);
+    --grey-text: rgba(117, 117, 117, 1);
+    --main-text: #212121;
+    --white-text-op60: rgba(255, 255, 255, 0.6);
+    --sky-text: rgba(33, 150, 243, 1);
+    --bg-dark-gray: rgba(47, 48, 58, 1);
+    --bg-light-gray:#f5f4fa;
+    --second-bg:#f5f4fa;
+    --main-bg:rgba(255, 255, 255, 1);
+    --clients-svg-color: rgb(175 177 183);
+    --bg-svg: rgba(255, 255, 255, 0.1)
+}
+

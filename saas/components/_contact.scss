@@ -1,0 +1,33 @@
+.contact {
+  display: flex;
+  margin-left: auto;
+}
+
+.contact__list:last-child {
+  margin-right: 0;
+  margin-left: 50px;
+}
+
+.contact__link {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+
+  color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: $grey-text;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact__link:hover,
+.contact__link:focus {
+  color: $sky-text;
+}
+.contact__svg {
+  margin-right: 10px;
+  fill: currentColor;
+}

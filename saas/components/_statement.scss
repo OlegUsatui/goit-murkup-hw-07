@@ -1,0 +1,41 @@
+.statement {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+.statement__list {
+  display: flex;
+}
+
+.statement__item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.statement__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: rgba(245, 244, 250, 1);
+}
+
+.statement__title {
+  margin-bottom: 10px;
+  color: $main-text;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.statement__lable {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: $grey-text;
+}
