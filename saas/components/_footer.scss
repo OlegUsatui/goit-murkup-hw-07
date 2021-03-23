@@ -32,9 +32,8 @@
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: $white-text-op60;
-}
-
-.footer__contacts:not(:first-child) {
-  margin-top: 10px;
-  margin-bottom: 0;
+  &:not(:first-child) {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
 }

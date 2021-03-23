@@ -35,13 +35,12 @@
   height: 44px;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social__link:hover,
-.social__link:focus {
-  background-color: $sky-text;
-  border-radius: 50%;
-  color: $white-text;
+  &:hover,
+  &:focus {
+    background-color: $sky-text;
+    border-radius: 50%;
+    color: $white-text;
+  }
 }
 
 .social__svg {
